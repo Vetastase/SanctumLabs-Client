@@ -1,0 +1,42 @@
+[
+  {
+    "title": "John Wick Chapter 4",
+    "release": "March 23, 2023 by Lionsgate",
+    "description": "With the price on his head ever increasing, legendary hit man John Wick takes his fight against the High Table global as he seeks out the most powerful players in the underworld, from New York to Paris to Japan to Berlin.",
+    "score": "Rotten Tomatoes => Tomatometer: 94%, Audience: 93%",
+    "image": "https://filmdaily.co/wp-content/uploads/2023/05/p17843098_v_h8_ah.jpg",
+    "video":"https://www.youtube.com/embed/yjRHZEUamCc",
+    "genres": "Neo-noir, Action, Thriller, Crime Film",
+    "starring": "Keanu Reeves, Donnie Yen, Bill Skarsgård, Laurence Fishburne, Hiroyuki Sanada, Shamier Anderson, Lance Reddick, Rina Sawayama, Scott Adkins, Clancy Brown, Ian McShane"
+  },
+  {
+    "title": "Fast X",
+    "release": "May 17, 2023 by Universal Pictures",
+    "description": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted and outdriven every foe in their path. Now, they must confront the most lethal opponent they've ever faced. Fueled by revenge, a terrifying threat emerges from the shadows of the past to shatter Dom's world and destroy everything -- and everyone -- he loves.",
+    "score": "Rotten Tomatoes => Tomatometer: 54%, Audience: 85%",
+    "image": "https://movies.universalpictures.com/media/02-fx-dm-mobile-banner-1080x745-pl-f01-031323-64108e7aa3468-1.jpg",
+    "video":"https://www.youtube.com/embed/eoOaKN4qCKw",
+    "genres": "Action",
+    "starring": "Vin Diesel, Michelle Rodriguez, Tyrese Gibson, Christopher Ludacris Bridges, John Cena, Nathalie Emmanuel, Jordana Brewster, Sung Kang, Scott Eastwood, Daniela Melchior, Alan Ritchson, Helen Mirren, Brie Larson, Rita Moreno, Jason Statham, Jason Momoa, Charlize Theron"
+  },
+  {
+    "title": "Super Mario Bros. Movie",
+    "release": "April 05, 2023 by Universal Pictures",
+    "description": "With help from Princess Peach, Mario gets ready to square off against the all-powerful Bowser to stop his plans from conquering the world.",
+    "score": "Rotten Tomatoes => Tomatometer: 59%, Audience: 96%",
+    "image": "https://technext24.com/wp-content/uploads/2023/05/Super-Mario-Bros-.jpeg",
+    "video":"https://www.youtube.com/embed/TnGl01FkMMo",
+    "genres": "Adventure",
+    "starring": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black, Keegan-Michael Key, Seth Rogen, Fred Armisen"
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "release": "April 05, 2023 by Universal Pictures",
+    "description": "With help from Princess Peach, Mario gets ready to square off against the all-powerful Bowser to stop his plans from conquering the world.",
+    "metacritic": "Rotten Tomatoes => Tomatometer: 59%, Audience: 96%",
+    "image": "https://technext24.com/wp-content/uploads/2023/05/Super-Mario-Bros-.jpeg",
+    "video":"https://www.youtube.com/embed/TnGl01FkMMo",
+    "genres": "Adventure",
+    "platforms": "Nintendo Switch"
+  }
+]

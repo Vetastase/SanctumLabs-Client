@@ -1,0 +1,301 @@
+.bubble {
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  width: 530px;
+  height: 530px;
+  margin-top: 230px;
+  margin-left: 35%;
+  background: rgba(2, 72, 163, 0.377);
+  border: 10px solid rgba(255, 253, 253, 0.192);
+  z-index: 50;
+}
+
+.bubble::before {
+  content: "";
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  border-radius: 50%;
+  width: 540px;
+  height: 540px;
+  left: -16px;
+  bottom: -15px;
+  border: 2px solid rgba(255, 253, 253, 0.507);
+}
+
+.bubble::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  z-index: -324;
+  border-radius: 50%;
+  width: 510px;
+  height: 510px;
+  left: 0px;
+  bottom: 0px;
+  background: linear-gradient(
+    to bottom,
+    rgba(234, 234, 245, 0.527) 20%,
+
+    rgba(255, 253, 253, 0.027) 50%
+  );
+}
+
+.circle {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  border-radius: 50%;
+  width: 548px;
+  height: 548px;
+  left: -20px;
+  bottom: -17px;
+  border: 2px solid rgba(255, 253, 253, 0.507);
+}
+
+.circle::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  width: 668px;
+  height: 668px;
+  left: -60px;
+  bottom: -65px;
+  border: 10px solid rgba(255, 253, 253, 0.507);
+  animation: circlebefore 5s infinite ease-in-out;
+}
+
+@keyframes circlebefore {
+  0% { transform:rotate(160deg); opacity:0; box-shadow:0 0 1px #bdd73c; }
+50% { transform:rotate(145deg); opacity:1;}
+100% { transform:rotate(-320deg); opacity:0; }
+}
+
+
+.inner-ring {
+  content: "";
+  position: absolute;
+  z-index: -3;
+  border-radius: 50%;
+  width: 846px;
+  height: 846px;
+  left: -170px;
+  bottom: -170px;
+  border: 2px solid rgba(32, 184, 255, 0.541);
+}
+
+.inner-ring::before {
+  content: "";
+  position: absolute;
+  z-index: -4;
+  border-radius: 50%;
+  width: 906px;
+  height: 906px;
+  left: -32px;
+  bottom: -30px;
+  border: 2px solid rgba(3, 174, 253, 0.541);
+}
+
+.middle-ring {
+  content: "";
+  position: absolute;
+  z-index: -5;
+  border-radius: 50%;
+  width: 830px;
+  height: 830px;
+  left: -162px;
+  bottom: -162px;
+  border: 2px solid rgba(3, 174, 253, 0.541);
+}
+
+.outer-ring {
+  content: "";
+  position: absolute;
+  z-index: -6;
+  border-radius: 50%;
+  width: 570px;
+  height: 570px;
+  left: -30px;
+  bottom: -30px;
+  border: 20px solid rgba(3, 174, 253, 0.541);
+}
+
+/*.another-ring {
+  clip-path: ellipse(130px 140px at 10% 20%);
+  z-index: -8;
+  border-radius: 50%;
+  width: 534px;
+  height: 534px;
+  left: -23px;
+  bottom: -26px;
+  border: 10px solid rgba(19, 139, 129, 0.432);
+  content: "";
+  position: absolute;
+  background-color: transparent;
+}*/
+
+.bubble-inner {
+  border-radius: 450px 250px 215px 80px;
+  border-color: #1707f7;
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(12, 27, 236),
+    rgb(12, 27, 236) 50px,
+    rgb(5, 80, 243) 90px,
+    rgb(5, 80, 243) 90px
+  );
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(12, 27, 236) 0 8px,
+    rgb(5, 80, 243) 0px 13px
+  );
+  box-shadow: 10px 10px 10px rgba(12, 27, 236, 0.76),
+    1px 0px 0px rgba(48, 138, 255, 0.6), inset 0px 0px 0px 10px #051df5,
+    inset -80px 0px 10px 0.3em #ffffff;
+  flex-direction: column;
+  height: 160px;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 180px;
+  margin-left: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+
+.bubble-inner::before {
+  content: "";
+  position: absolute;
+  z-index: -30;
+  border-radius: 450px 250px 200px 90px;
+  top: -1%;
+  left: -0.5%;
+  width: 23.4vw;
+  height: 19vh;
+  background: linear-gradient(
+    to top,
+    rgba(234, 234, 245, 0.295) 20%,
+    rgba(81, 91, 238, 0.397) 20%,
+    rgba(97, 201, 250, 0.397) 60%,
+    rgba(87, 75, 253, 0.397) 80%,
+    rgba(255, 253, 253, 0.815) 90%
+  );
+}
+
+.bubble-link {
+  display: flex;
+  font-size: 45px;
+  text-decoration: none;
+  font-family: Sanctum;
+  text-transform: uppercase;
+  z-index: 51;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  background-color: rgb(8, 252, 150);
+  background-image: linear-gradient(70deg, #f8f8f6, rgb(8, 252, 150));
+  background-size: 100%;
+}
+
+/*span {
+    opacity: 0;
+    transition: all 0.4s ease;
+    transform: translateY(50px);
+    display: inline-block
+  }
+
+  span.fade {
+    opacity: 1;
+    transform: translateY(0px)
+  }*/
+
+.sanctum-text {
+  background-color: black;
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  position: relative;
+  font-size: 45px;
+}
+
+.sanctum-text::before {
+  background-color: rgb(0, 172, 100);
+  background-image: repeating-linear-gradient(130deg, #eeeee8be, rgb(0, 172, 100));
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  content: attr(data-text);
+  animation: sanctum 2s linear /*infinite*/;
+}
+
+/*.sanctum-text {
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: 45px;
+    font-weight: 300;
+    text-decoration: none;
+  }*/
+
+/*.sanctum-text::before {
+    color: rgb(8, 252, 150);
+    overflow: hidden;
+    position: absolute;
+    content: attr(data-text);
+    animation: sanctum 6s linear infinite;
+  }*/
+
+@keyframes sanctum {
+  0%,
+  10% {
+    width: 0;
+  }
+
+  70%,
+  80%,
+  90%,
+  100% {
+    width: 100%;
+  }
+}
+
+/*@keyframes sanctum {
+    0% {
+      max-width: 0rem;
+    }
+    20% {
+      max-width: 20rem;
+      color: rgb(8, 252, 150);
+    }
+    40% {
+      max-width: 40rem;
+      color: rgb(8, 252, 150);
+    }
+    60% {
+      max-width: 60rem;
+      color: rgb(8, 252, 150);
+    }
+    80% {
+      max-width: 80rem;
+      color: rgb(8, 252, 150);
+    }
+    100% {
+      max-width: 100rem;
+      color: rgb(8, 252, 150);
+    }
+  }*/

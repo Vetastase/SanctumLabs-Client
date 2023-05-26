@@ -1,0 +1,52 @@
+
+/*.pink {
+  background: rgb(239, 71, 111);
+
+}
+
+.blue {
+  background: rgb(17, 138, 178);
+}
+
+.orange {
+  background: rgb(255, 209, 102);
+  font-size: 14px;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper {
+  margin: 15px 0px 0px 10px;
+  position: absolute;
+}
+
+.wrapper div {
+  height: 400px;
+  width: 900px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.test-wrapper {
+  height: 480px;
+  width: 500px;
+}
+
+.test-img-top {
+  height: 200px;
+  margin-top: -10px;
+  margin-bottom: -40px
+}
+
+.test-top {
+  height: 200px;
+}
+
+.test-top > div {
+  background-color: transparent;
+}*/
