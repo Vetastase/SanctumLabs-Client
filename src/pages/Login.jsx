@@ -9,7 +9,7 @@ const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
 function Login(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [errorMessage, setErrorMessage] = useState(undefined);
+  const [errorMessage, setErrorMessage] = useState();
   
   const navigate = useNavigate();
 
