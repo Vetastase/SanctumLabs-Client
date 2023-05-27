@@ -26,7 +26,7 @@ function Login(props) {
     // Verification of the requestBody properties
     axios.post(`${API_URL}/login`, requestBody)
       .then((response) => {
-        console.log("JWT token", response.data.authToken)
+        //console.log("JWT token", response.data.authToken)
         
         // Save the logged in userId to later get profile information
         localStorage.setItem("userId", response.data.userId)
