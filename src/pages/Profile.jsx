@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import session from "../services/session";
 import profiledefault from "../assets/images/profile-default.png"
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
 
 function Profile(props) {
 
