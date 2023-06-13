@@ -4,6 +4,7 @@ import { useNavigate} from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
 const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
+//const API_URL = "http://localhost:3000";
 
 function UpdateCard(props) {
   const [title, setTitle] = useState("");
@@ -154,37 +155,37 @@ const handleChange = (e) => {
 
     <div className="radio">
       <label>Games
-        <input type="radio" value="games" 
-                      checked={media === "games"} 
+        <input type="radio" value="Games" 
+                      checked={media === "Games"} 
                       onChange={handleOptionChange} />
       </label>
     </div>
 
     <div className="radio">
       <label>Series
-        <input type="radio" value="series" 
-                      checked={media === "series"} 
+        <input type="radio" value="Series" 
+                      checked={media === "Series"} 
                       onChange={handleOptionChange} />
      </label>
     </div>
 
     <div className="radio">
       <label>Books
-        <input type="radio" value="books" 
-                      checked={media === "books"} 
+        <input type="radio" value="Books" 
+                      checked={media === "Books"} 
                       onChange={handleOptionChange} />
      </label>
     </div>
 
     <div className="radio">
       <label>Miscellanous
-        <input type="radio" value="miscellanous" 
-                      checked={media === "miscellanous"} 
+        <input type="radio" value="Miscellanous" 
+                      checked={media === "Miscellanous"} 
                       onChange={handleOptionChange} />
      </label>
      </div>
      <div className="other d-flex align-items-center">
-     {media === "miscellanous" ?
+     {media === "Miscellanous" ?
       <input type="text" className="form-control" value={text} checked={media === "text"} onChange={handleTextChange} placeholder="Type other media genre" />
      :
      <input type="text" className="form-control" value={text} checked={media === "text"} onChange={handleTextChange} disabled></input>
@@ -193,7 +194,7 @@ const handleChange = (e) => {
  
     </div>
     <div className="edit-delete d-flex justify-content-center">
-    <button type="submit">Edit</button>
+    <button type="submit">Save Changes</button>
     <button onClick={deleteCard}>Remove</button>
     </div>
     </form>

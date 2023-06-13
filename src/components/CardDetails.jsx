@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Link, useParams } from 'react-router-dom'
 
 const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
+//const API_URL = "http://localhost:3000";
 
 function CardDetails (props) {
   const [card, setCard] = useState(null);
@@ -39,10 +40,9 @@ function CardDetails (props) {
         <h1>{card.title}</h1>
         <p>{card.release}</p>
         <p>{card.description}</p>
-        <p>{card.genres}</p>
-        {card.media !== "miscellanous" ?  <p>{card.media}</p> : <div></div>  }
-       
-        <p>{card.text}</p>      
+        <p>Genre: {card.genres}</p>
+        {card.media !== "Miscellanous" ?  <p>Media: {card.media}</p> : 
+        <div><p>Media: {card.text}</p></div>  }
         </div>
         <div className="details-video-wrapper d-flex">
         <iframe className="details-video"

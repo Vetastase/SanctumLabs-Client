@@ -538,6 +538,10 @@ svg > .st0, .st1, .st2, .st3, .st4 {
   }
 }
 
+.card-body h3 {
+  color: white
+}
+
 .card-button button {
   background-color: transparent;
   color: white;
@@ -603,7 +607,6 @@ label > .radio {
   margin-left: 10px
 }
 
-
 .card-add input[type]:focus {
   background-color: transparent;
   color: white
@@ -624,7 +627,8 @@ label > .radio {
 }
 
 .form-wrapper textarea:focus {
-  background-color: transparent
+  background-color: transparent;
+  color: white
 }
 
 .card-add input:disabled {
