@@ -2,8 +2,8 @@ import axios from "axios";
  
 const storedToken = localStorage.getItem('authToken');
 const profile = axios.create({
-  baseURL: "https://calm-gray-sawfish-tie.cyclic.app",
-  //baseURL: "http://localhost:3000",
+    //baseURL: "https://calm-gray-sawfish-tie.cyclic.app",
+  baseURL: "http://localhost:3000",
   headers: { Authorization: `Bearer ${storedToken}`} 
 });
  
