@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { useNavigate } from "react-router-dom"
 import axios from 'axios';
 
-//const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
-const API_URL = "http://localhost:3000";
+const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
+//const API_URL = "http://localhost:3000";
 
 
 function CardAdd() {

@@ -2,8 +2,8 @@ import React, { useState, useEffect} from 'react';
 import axios from 'axios';
 import { Link, useParams } from 'react-router-dom'
 
-//const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
-const API_URL = "http://localhost:3000";
+const API_URL = "https://calm-gray-sawfish-tie.cyclic.app";
+//const API_URL = "http://localhost:3000";
 
 function CardDetails (props) {
   const [card, setCard] = useState(null);
